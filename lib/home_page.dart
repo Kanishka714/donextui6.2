@@ -94,9 +94,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          MyButton(color: Colors.white, buttonText: "Cancle"),
+                          MyButton(color: Colors.white, buttonText: "Cancle", textColor: Colors.black),
                           SizedBox(width: 20.0),
-                          MyButton(color: Colors.teal, buttonText: "Save",),
+                          MyButton(color: Colors.teal, buttonText: "Save", textColor: Colors.white),
                         ],
                       ),
 
