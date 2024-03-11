@@ -13,7 +13,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color.fromRGBO(246, 246, 246, 1.0),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.only(right: 12.0, left: 12.0),
@@ -96,7 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           MyButton(color: Colors.white, buttonText: "Cancle", textColor: Colors.black),
                           SizedBox(width: 20.0),
-                          MyButton(color: Colors.teal, buttonText: "Save", textColor: Colors.white),
+                          MyButton(color: Color.fromRGBO(0, 188, 199, 1.0),
+                              buttonText: "Save", textColor: Colors.white),
                         ],
                       ),
 

@@ -37,12 +37,13 @@ class _CustomTextFieldState extends State<CustomTextField> {
               focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(20),
                 borderSide: BorderSide(
-                  color: isSelected ? Colors.teal.shade600 : Colors.green,
+                  color: isSelected ? Colors.teal.shade600 : Color.fromRGBO(0, 188, 199, 1.0)
+                  ,
                   width: 2.0,
                 ),
               ),
               filled: true,
-              fillColor: Colors.white,
+              fillColor: Colors.white70,
               suffixIcon: widget.showCheckBox
                   ? Checkbox(
                 value: isChecked,
@@ -52,7 +53,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
                     isChecked = value!;
                   });
                 },
-                activeColor: Colors.green,
+                activeColor: Color.fromRGBO(0, 188, 199, 1.0),
               )
                   : null,
             ),
